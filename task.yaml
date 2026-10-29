@@ -1,3 +1,22 @@
-version: 1.0
-name: reactor-safety-control
-description: "Write a deterministic sampled-data controller for exothermic semi-batch reactor safety."
+version: "1.0"
+name: semi-batch-reactor-safety-control
+description: >
+  Write a deterministic sampled-data controller that drives a cooling-limited
+  exothermic semi-batch reactor to safe, time-optimal batch completion, never
+  exceeding the 360 K safety limit, across nominal and hidden fault scenarios
+  with concentrations and reaction rate unmeasured.
+author: Imran Khan
+category: engineering
+domain: chemical-engineering
+tags:
+  - process-control
+  - semi-batch-reactor
+  - thermal-runaway
+  - partial-observability
+  - robust-control
+difficulty: hard
+environment: environment/Dockerfile
+instruction: instruction.md
+solution: solution/solve.sh
+tests: tests/test.sh
+timeout_sec: 1800
