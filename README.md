@@ -93,3 +93,12 @@ The last line prints the reward: `1` if all tests pass, `0` otherwise.
 ## Author
 
 Imran Khan · M.Tech CSE, IIT Bombay · [LinkedIn](https://www.linkedin.com/in/imran-khan-83a947156/)
+
+## Related
+
+- [terminal-bench-engineering-tasks](https://github.com/ik-786/terminal-bench-engineering-tasks): three more tasks in the same format, from electrical, civil and aerospace engineering (AC power flow, truss analysis, multi-revolution Lambert).
+- [reward-hacking-detector](https://github.com/ik-786/reward-hacking-detector): static, differential and trajectory checks for agents that pass tests without solving the task.
+
+## License
+
+MIT
